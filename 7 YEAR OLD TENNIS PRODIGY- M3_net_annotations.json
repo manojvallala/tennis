@@ -1,0 +1,233 @@
+{
+  "video_path": "7 YEAR OLD TENNIS PRODIGY- M3.mp4",
+  "video_name": "7 YEAR OLD TENNIS PRODIGY- M3.mp4",
+  "total_frames": 7534,
+  "fps": 30.0,
+  "width": 640,
+  "height": 360,
+  "skip_frames": 30,
+  "point_order": [
+    "left_top",
+    "left_bottom",
+    "right_top",
+    "right_bottom"
+  ],
+  "annotations": {
+    "90": {
+      "left_top": [
+        54,
+        96
+      ],
+      "left_bottom": [
+        54,
+        131
+      ],
+      "right_top": [
+        505,
+        102
+      ],
+      "right_bottom": [
+        504,
+        138
+      ]
+    },
+    "120": {
+      "left_top": [
+        70,
+        93
+      ],
+      "left_bottom": [
+        70,
+        127
+      ],
+      "right_top": [
+        522,
+        101
+      ],
+      "right_bottom": [
+        520,
+        136
+      ]
+    },
+    "300": {
+      "left_top": [
+        12,
+        102
+      ],
+      "left_bottom": [
+        13,
+        140
+      ],
+      "right_top": [
+        474,
+        94
+      ],
+      "right_bottom": [
+        474,
+        128
+      ]
+    },
+    "1080": {
+      "left_top": [
+        78,
+        98
+      ],
+      "left_bottom": [
+        76,
+        134
+      ],
+      "right_top": [
+        530,
+        116
+      ],
+      "right_bottom": [
+        530,
+        152
+      ]
+    },
+    "1140": {
+      "left_top": [
+        151,
+        90
+      ],
+      "left_bottom": [
+        149,
+        126
+      ],
+      "right_top": [
+        617,
+        110
+      ],
+      "right_bottom": [
+        613,
+        148
+      ]
+    },
+    "1170": {
+      "left_top": [
+        136,
+        96
+      ],
+      "left_bottom": [
+        133,
+        132
+      ],
+      "right_top": [
+        606,
+        123
+      ],
+      "right_bottom": [
+        604,
+        162
+      ]
+    },
+    "1470": {
+      "left_top": [
+        74,
+        128
+      ],
+      "left_bottom": [
+        74,
+        162
+      ],
+      "right_top": [
+        515,
+        133
+      ],
+      "right_bottom": [
+        514,
+        168
+      ]
+    },
+    "1500": {
+      "left_top": [
+        94,
+        134
+      ],
+      "left_bottom": [
+        94,
+        168
+      ],
+      "right_top": [
+        533,
+        140
+      ],
+      "right_bottom": [
+        533,
+        176
+      ]
+    },
+    "2100": {
+      "left_top": [
+        91,
+        126
+      ],
+      "left_bottom": [
+        92,
+        158
+      ],
+      "right_top": [
+        514,
+        132
+      ],
+      "right_bottom": [
+        513,
+        166
+      ]
+    },
+    "2490": {
+      "left_top": [
+        14,
+        134
+      ],
+      "left_bottom": [
+        14,
+        176
+      ],
+      "right_top": [
+        526,
+        126
+      ],
+      "right_bottom": [
+        526,
+        166
+      ]
+    },
+    "3450": {
+      "left_top": [
+        54,
+        147
+      ],
+      "left_bottom": [
+        54,
+        194
+      ],
+      "right_top": [
+        622,
+        150
+      ],
+      "right_bottom": [
+        621,
+        194
+      ]
+    },
+    "4500": {
+      "left_top": [
+        10,
+        114
+      ],
+      "left_bottom": [
+        11,
+        150
+      ],
+      "right_top": [
+        458,
+        113
+      ],
+      "right_bottom": [
+        458,
+        150
+      ]
+    }
+  }
+}

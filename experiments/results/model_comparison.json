@@ -1,0 +1,391 @@
+{
+  "device": "cpu",
+  "train_samples": 150,
+  "val_samples": 37,
+  "models": [
+    {
+      "run_name": "unet_resnet18_256",
+      "encoder_name": "resnet18",
+      "image_size": 256,
+      "description": "U-Net with ResNet-18 encoder.",
+      "checkpoint_path": "experiments/checkpoints/unet_resnet18_256.pth",
+      "best_epoch": 6,
+      "epochs": 8,
+      "train_samples": 150,
+      "val_samples": 37,
+      "pixel_accuracy": 0.9961605587521115,
+      "correct_pixels": 2415522,
+      "total_pixels": 2424832,
+      "parameters": 14328209,
+      "checkpoint_size_bytes": 57417131,
+      "checkpoint_size_mb": 54.757243156433105,
+      "total_inference_ms": 3015.8767999946576,
+      "avg_inference_ms": 81.51018378363939,
+      "timed_frames": 37,
+      "device": "cpu",
+      "best_val_loss": 0.018950406864688202,
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 0.340543127655983,
+          "train_pixel_accuracy": 0.8876825968424479,
+          "val_loss": 0.36108084788193573,
+          "val_pixel_accuracy": 0.9067015776763091,
+          "val_correct_pixels": 2198599,
+          "val_total_pixels": 2424832
+        },
+        {
+          "epoch": 2,
+          "train_loss": 0.1052344200015068,
+          "train_pixel_accuracy": 0.9925933837890625,
+          "val_loss": 0.08678271017364554,
+          "val_pixel_accuracy": 0.986093469568201,
+          "val_correct_pixels": 2391111,
+          "val_total_pixels": 2424832
+        },
+        {
+          "epoch": 3,
+          "train_loss": 0.05423784116903941,
+          "train_pixel_accuracy": 0.9948532104492187,
+          "val_loss": 0.047797846129617176,
+          "val_pixel_accuracy": 0.9931108629381334,
+          "val_correct_pixels": 2408127,
+          "val_total_pixels": 2424832
+        },
+        {
+          "epoch": 4,
+          "train_loss": 0.03236224591732025,
+          "train_pixel_accuracy": 0.9960123697916666,
+          "val_loss": 0.03196800620974721,
+          "val_pixel_accuracy": 0.9955947463576859,
+          "val_correct_pixels": 2414150,
+          "val_total_pixels": 2424832
+        },
+        {
+          "epoch": 5,
+          "train_loss": 0.022810354853669803,
+          "train_pixel_accuracy": 0.996453857421875,
+          "val_loss": 0.025101795238820283,
+          "val_pixel_accuracy": 0.9952099774334882,
+          "val_correct_pixels": 2413217,
+          "val_total_pixels": 2424832
+        },
+        {
+          "epoch": 6,
+          "train_loss": 0.017898205034434796,
+          "train_pixel_accuracy": 0.9967336018880208,
+          "val_loss": 0.018950406864688202,
+          "val_pixel_accuracy": 0.9961605587521115,
+          "val_correct_pixels": 2415522,
+          "val_total_pixels": 2424832
+        },
+        {
+          "epoch": 7,
+          "train_loss": 0.015054760972658792,
+          "train_pixel_accuracy": 0.9968022664388021,
+          "val_loss": 0.019201266856209653,
+          "val_pixel_accuracy": 0.9955114416173987,
+          "val_correct_pixels": 2413948,
+          "val_total_pixels": 2424832
+        },
+        {
+          "epoch": 8,
+          "train_loss": 0.014156935724119345,
+          "train_pixel_accuracy": 0.9966721598307292,
+          "val_loss": 0.016581214309946912,
+          "val_pixel_accuracy": 0.9957349622571791,
+          "val_correct_pixels": 2414490,
+          "val_total_pixels": 2424832
+        }
+      ]
+    },
+    {
+      "run_name": "unet_mobilenet_v2_256",
+      "encoder_name": "mobilenet_v2",
+      "image_size": 256,
+      "description": "U-Net with MobileNetV2 encoder.",
+      "checkpoint_path": "experiments/checkpoints/unet_mobilenet_v2_256.pth",
+      "best_epoch": 7,
+      "epochs": 8,
+      "train_samples": 150,
+      "val_samples": 37,
+      "pixel_accuracy": 0.9965713088576859,
+      "correct_pixels": 2416518,
+      "total_pixels": 2424832,
+      "parameters": 6628945,
+      "checkpoint_size_bytes": 26781467,
+      "checkpoint_size_mb": 25.540797233581543,
+      "total_inference_ms": 2211.85250000417,
+      "avg_inference_ms": 59.77979729741,
+      "timed_frames": 37,
+      "device": "cpu",
+      "best_val_loss": 0.01441236983078557,
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 0.3384416296084722,
+          "train_pixel_accuracy": 0.9001124064127605,
+          "val_loss": 0.48175033926963806,
+          "val_pixel_accuracy": 0.8933051856788429,
+          "val_correct_pixels": 2166115,
+          "val_total_pixels": 2424832
+        },
+        {
+          "epoch": 2,
+          "train_loss": 0.10047461534539859,
+          "train_pixel_accuracy": 0.9898829142252604,
+          "val_loss": 0.08152629394789,
+          "val_pixel_accuracy": 0.9840092014622044,
+          "val_correct_pixels": 2386057,
+          "val_total_pixels": 2424832
+        },
+        {
+          "epoch": 3,
+          "train_loss": 0.04786748165885608,
+          "train_pixel_accuracy": 0.9938008626302083,
+          "val_loss": 0.03927687696508459,
+          "val_pixel_accuracy": 0.9956104175464527,
+          "val_correct_pixels": 2414188,
+          "val_total_pixels": 2424832
+        },
+        {
+          "epoch": 4,
+          "train_loss": 0.02877001295487086,
+          "train_pixel_accuracy": 0.9958950805664063,
+          "val_loss": 0.028050675887513806,
+          "val_pixel_accuracy": 0.9958030082084037,
+          "val_correct_pixels": 2414655,
+          "val_total_pixels": 2424832
+        },
+        {
+          "epoch": 5,
+          "train_loss": 0.021173496494690577,
+          "train_pixel_accuracy": 0.9963377888997396,
+          "val_loss": 0.02032818373393368,
+          "val_pixel_accuracy": 0.9964698585304054,
+          "val_correct_pixels": 2416272,
+          "val_total_pixels": 2424832
+        },
+        {
+          "epoch": 6,
+          "train_loss": 0.016673677849272886,
+          "train_pixel_accuracy": 0.9968392944335938,
+          "val_loss": 0.016643248095705703,
+          "val_pixel_accuracy": 0.9965713088576859,
+          "val_correct_pixels": 2416518,
+          "val_total_pixels": 2424832
+        },
+        {
+          "epoch": 7,
+          "train_loss": 0.014337246554593246,
+          "train_pixel_accuracy": 0.9969161987304688,
+          "val_loss": 0.01441236983078557,
+          "val_pixel_accuracy": 0.9965713088576859,
+          "val_correct_pixels": 2416518,
+          "val_total_pixels": 2424832
+        },
+        {
+          "epoch": 8,
+          "train_loss": 0.013149836249649525,
+          "train_pixel_accuracy": 0.9968508911132813,
+          "val_loss": 0.013517344974585482,
+          "val_pixel_accuracy": 0.9964743949271537,
+          "val_correct_pixels": 2416283,
+          "val_total_pixels": 2424832
+        }
+      ]
+    },
+    {
+      "run_name": "unet_mobilenet_v2_192",
+      "encoder_name": "mobilenet_v2",
+      "image_size": 192,
+      "description": "U-Net with MobileNetV2 encoder.",
+      "checkpoint_path": "experiments/checkpoints/unet_mobilenet_v2_192.pth",
+      "best_epoch": 8,
+      "epochs": 8,
+      "train_samples": 150,
+      "val_samples": 37,
+      "pixel_accuracy": 0.9964463975694444,
+      "correct_pixels": 1359121,
+      "total_pixels": 1363968,
+      "parameters": 6628945,
+      "checkpoint_size_bytes": 26781467,
+      "checkpoint_size_mb": 25.540797233581543,
+      "total_inference_ms": 1306.6222999950696,
+      "avg_inference_ms": 35.314116216082965,
+      "timed_frames": 37,
+      "device": "cpu",
+      "best_val_loss": 0.01183566340320819,
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 0.25942932844161987,
+          "train_pixel_accuracy": 0.9178801359953703,
+          "val_loss": 0.2355467298546353,
+          "val_pixel_accuracy": 0.9403937629035285,
+          "val_correct_pixels": 1282667,
+          "val_total_pixels": 1363968
+        },
+        {
+          "epoch": 2,
+          "train_loss": 0.06442917083700497,
+          "train_pixel_accuracy": 0.9904765263310186,
+          "val_loss": 0.04195663232255627,
+          "val_pixel_accuracy": 0.9944206902214715,
+          "val_correct_pixels": 1356358,
+          "val_total_pixels": 1363968
+        },
+        {
+          "epoch": 3,
+          "train_loss": 0.03322535708546639,
+          "train_pixel_accuracy": 0.9946887659143518,
+          "val_loss": 0.030056624648136063,
+          "val_pixel_accuracy": 0.9947630736204955,
+          "val_correct_pixels": 1356825,
+          "val_total_pixels": 1363968
+        },
+        {
+          "epoch": 4,
+          "train_loss": 0.021113482043147086,
+          "train_pixel_accuracy": 0.9961903211805555,
+          "val_loss": 0.020804799589756375,
+          "val_pixel_accuracy": 0.9959031296921922,
+          "val_correct_pixels": 1358380,
+          "val_total_pixels": 1363968
+        },
+        {
+          "epoch": 5,
+          "train_loss": 0.016398723870515823,
+          "train_pixel_accuracy": 0.9965612340856481,
+          "val_loss": 0.016807646767513174,
+          "val_pixel_accuracy": 0.9960328981325075,
+          "val_correct_pixels": 1358557,
+          "val_total_pixels": 1363968
+        },
+        {
+          "epoch": 6,
+          "train_loss": 0.013484158168236414,
+          "train_pixel_accuracy": 0.9968744574652778,
+          "val_loss": 0.014917646509570044,
+          "val_pixel_accuracy": 0.9961340735266516,
+          "val_correct_pixels": 1358695,
+          "val_total_pixels": 1363968
+        },
+        {
+          "epoch": 7,
+          "train_loss": 0.01194879285991192,
+          "train_pixel_accuracy": 0.9969605396412037,
+          "val_loss": 0.013051496592123766,
+          "val_pixel_accuracy": 0.9961494697822822,
+          "val_correct_pixels": 1358716,
+          "val_total_pixels": 1363968
+        },
+        {
+          "epoch": 8,
+          "train_loss": 0.01079818159341812,
+          "train_pixel_accuracy": 0.9971323423032408,
+          "val_loss": 0.01183566340320819,
+          "val_pixel_accuracy": 0.9964463975694444,
+          "val_correct_pixels": 1359121,
+          "val_total_pixels": 1363968
+        }
+      ]
+    },
+    {
+      "run_name": "unet_mobilenet_v2_128",
+      "encoder_name": "mobilenet_v2",
+      "image_size": 128,
+      "description": "U-Net with MobileNetV2 encoder.",
+      "checkpoint_path": "experiments/checkpoints/unet_mobilenet_v2_128.pth",
+      "best_epoch": 7,
+      "epochs": 8,
+      "train_samples": 150,
+      "val_samples": 37,
+      "pixel_accuracy": 0.9959848764780406,
+      "correct_pixels": 603774,
+      "total_pixels": 606208,
+      "parameters": 6628945,
+      "checkpoint_size_bytes": 26781467,
+      "checkpoint_size_mb": 25.540797233581543,
+      "total_inference_ms": 1073.2569999963744,
+      "avg_inference_ms": 29.006945945847956,
+      "timed_frames": 37,
+      "device": "cpu",
+      "best_val_loss": 0.013662946133597477,
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 0.2555897197127342,
+          "train_pixel_accuracy": 0.9202734375,
+          "val_loss": 0.13345579722443143,
+          "val_pixel_accuracy": 0.9561322186444257,
+          "val_correct_pixels": 579615,
+          "val_total_pixels": 606208
+        },
+        {
+          "epoch": 2,
+          "train_loss": 0.06974415555596351,
+          "train_pixel_accuracy": 0.9854427083333334,
+          "val_loss": 0.0530028890919041,
+          "val_pixel_accuracy": 0.9857837573902027,
+          "val_correct_pixels": 597590,
+          "val_total_pixels": 606208
+        },
+        {
+          "epoch": 3,
+          "train_loss": 0.03264967540899912,
+          "train_pixel_accuracy": 0.993541259765625,
+          "val_loss": 0.028594288018506928,
+          "val_pixel_accuracy": 0.9937595676731419,
+          "val_correct_pixels": 602425,
+          "val_total_pixels": 606208
+        },
+        {
+          "epoch": 4,
+          "train_loss": 0.02162698725859324,
+          "train_pixel_accuracy": 0.9952311197916667,
+          "val_loss": 0.020882425276008813,
+          "val_pixel_accuracy": 0.995166675464527,
+          "val_correct_pixels": 603278,
+          "val_total_pixels": 606208
+        },
+        {
+          "epoch": 5,
+          "train_loss": 0.0183770881096522,
+          "train_pixel_accuracy": 0.9950146484375,
+          "val_loss": 0.017554837102825578,
+          "val_pixel_accuracy": 0.9949753220016891,
+          "val_correct_pixels": 603162,
+          "val_total_pixels": 606208
+        },
+        {
+          "epoch": 6,
+          "train_loss": 0.014697284661233425,
+          "train_pixel_accuracy": 0.9960941569010416,
+          "val_loss": 0.015936124465755513,
+          "val_pixel_accuracy": 0.9955609295819257,
+          "val_correct_pixels": 603517,
+          "val_total_pixels": 606208
+        },
+        {
+          "epoch": 7,
+          "train_loss": 0.012638028773168723,
+          "train_pixel_accuracy": 0.9965157063802084,
+          "val_loss": 0.013662946133597477,
+          "val_pixel_accuracy": 0.9959848764780406,
+          "val_correct_pixels": 603774,
+          "val_total_pixels": 606208
+        },
+        {
+          "epoch": 8,
+          "train_loss": 0.011274799406528473,
+          "train_pixel_accuracy": 0.9967818196614583,
+          "val_loss": 0.012519551894149265,
+          "val_pixel_accuracy": 0.9959733292863175,
+          "val_correct_pixels": 603767,
+          "val_total_pixels": 606208
+        }
+      ]
+    }
+  ]
+}

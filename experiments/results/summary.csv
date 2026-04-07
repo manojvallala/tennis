@@ -1,0 +1,5 @@
+run_name,encoder_name,image_size,description,checkpoint_path,best_epoch,train_samples,val_samples,pixel_accuracy,correct_pixels,total_pixels,parameters,checkpoint_size_mb,avg_inference_ms,total_inference_ms,timed_frames,device
+unet_resnet18_256,resnet18,256,U-Net with ResNet-18 encoder.,experiments/checkpoints/unet_resnet18_256.pth,6,150,37,0.9961605587521115,2415522,2424832,14328209,54.757243156433105,81.51018378363939,3015.8767999946576,37,cpu
+unet_mobilenet_v2_256,mobilenet_v2,256,U-Net with MobileNetV2 encoder.,experiments/checkpoints/unet_mobilenet_v2_256.pth,7,150,37,0.9965713088576859,2416518,2424832,6628945,25.540797233581543,59.77979729741,2211.85250000417,37,cpu
+unet_mobilenet_v2_192,mobilenet_v2,192,U-Net with MobileNetV2 encoder.,experiments/checkpoints/unet_mobilenet_v2_192.pth,8,150,37,0.9964463975694444,1359121,1363968,6628945,25.540797233581543,35.314116216082965,1306.6222999950696,37,cpu
+unet_mobilenet_v2_128,mobilenet_v2,128,U-Net with MobileNetV2 encoder.,experiments/checkpoints/unet_mobilenet_v2_128.pth,7,150,37,0.9959848764780406,603774,606208,6628945,25.540797233581543,29.006945945847956,1073.2569999963744,37,cpu

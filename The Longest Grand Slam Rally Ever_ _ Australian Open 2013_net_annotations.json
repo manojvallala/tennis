@@ -1,0 +1,233 @@
+{
+  "video_path": "The Longest Grand Slam Rally Ever_ _ Australian Open 2013.mp4",
+  "video_name": "The Longest Grand Slam Rally Ever_ _ Australian Open 2013.mp4",
+  "total_frames": 3788,
+  "fps": 25.0,
+  "width": 640,
+  "height": 360,
+  "skip_frames": 30,
+  "point_order": [
+    "left_top",
+    "left_bottom",
+    "right_top",
+    "right_bottom"
+  ],
+  "annotations": {
+    "390": {
+      "left_top": [
+        154,
+        128
+      ],
+      "left_bottom": [
+        156,
+        159
+      ],
+      "right_top": [
+        452,
+        127
+      ],
+      "right_bottom": [
+        450,
+        156
+      ]
+    },
+    "420": {
+      "left_top": [
+        155,
+        128
+      ],
+      "left_bottom": [
+        156,
+        158
+      ],
+      "right_top": [
+        450,
+        125
+      ],
+      "right_bottom": [
+        449,
+        157
+      ]
+    },
+    "450": {
+      "left_top": [
+        155,
+        130
+      ],
+      "left_bottom": [
+        156,
+        158
+      ],
+      "right_top": [
+        450,
+        126
+      ],
+      "right_bottom": [
+        449,
+        156
+      ]
+    },
+    "480": {
+      "left_top": [
+        154,
+        130
+      ],
+      "left_bottom": [
+        156,
+        157
+      ],
+      "right_top": [
+        452,
+        128
+      ],
+      "right_bottom": [
+        449,
+        156
+      ]
+    },
+    "510": {
+      "left_top": [
+        160,
+        130
+      ],
+      "left_bottom": [
+        163,
+        158
+      ],
+      "right_top": [
+        456,
+        127
+      ],
+      "right_bottom": [
+        454,
+        156
+      ]
+    },
+    "840": {
+      "left_top": [
+        155,
+        128
+      ],
+      "left_bottom": [
+        156,
+        158
+      ],
+      "right_top": [
+        450,
+        126
+      ],
+      "right_bottom": [
+        448,
+        155
+      ]
+    },
+    "870": {
+      "left_top": [
+        154,
+        130
+      ],
+      "left_bottom": [
+        156,
+        159
+      ],
+      "right_top": [
+        450,
+        126
+      ],
+      "right_bottom": [
+        449,
+        156
+      ]
+    },
+    "900": {
+      "left_top": [
+        154,
+        130
+      ],
+      "left_bottom": [
+        157,
+        158
+      ],
+      "right_top": [
+        450,
+        130
+      ],
+      "right_bottom": [
+        448,
+        156
+      ]
+    },
+    "930": {
+      "left_top": [
+        168,
+        130
+      ],
+      "left_bottom": [
+        169,
+        158
+      ],
+      "right_top": [
+        463,
+        128
+      ],
+      "right_bottom": [
+        460,
+        156
+      ]
+    },
+    "960": {
+      "left_top": [
+        172,
+        128
+      ],
+      "left_bottom": [
+        174,
+        156
+      ],
+      "right_top": [
+        468,
+        126
+      ],
+      "right_bottom": [
+        466,
+        154
+      ]
+    },
+    "990": {
+      "left_top": [
+        156,
+        129
+      ],
+      "left_bottom": [
+        158,
+        158
+      ],
+      "right_top": [
+        451,
+        127
+      ],
+      "right_bottom": [
+        450,
+        155
+      ]
+    },
+    "1020": {
+      "left_top": [
+        152,
+        128
+      ],
+      "left_bottom": [
+        154,
+        157
+      ],
+      "right_top": [
+        450,
+        128
+      ],
+      "right_bottom": [
+        447,
+        156
+      ]
+    }
+  }
+}

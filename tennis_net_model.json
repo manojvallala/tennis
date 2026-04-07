@@ -1,0 +1,16 @@
+{
+  "task": "tennis_net_keypoints",
+  "model_type": "resnet18_keypoint_regression",
+  "image_size": 320,
+  "epochs": 24,
+  "batch_size": 12,
+  "val_split": 0.15,
+  "seed": 42,
+  "image_dir": "net_data/images",
+  "label_dir": "net_data/labels",
+  "train_samples": 307,
+  "val_samples": 54,
+  "positive_fraction": 0.4006514657980456,
+  "pos_weight": 1.4959349593495936,
+  "presence_threshold": 0.45
+}

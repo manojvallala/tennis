@@ -1,0 +1,395 @@
+{
+  "video_path": "40 Minutes of Alexandra Eala GREATNESS \ud83e\udd29.mp4",
+  "video_name": "40 Minutes of Alexandra Eala GREATNESS \ud83e\udd29.mp4",
+  "total_frames": 61174,
+  "fps": 25.0,
+  "width": 640,
+  "height": 360,
+  "skip_frames": 30,
+  "point_order": [
+    "left_top",
+    "left_bottom",
+    "right_top",
+    "right_bottom"
+  ],
+  "annotations": {
+    "60": {
+      "left_top": [
+        151,
+        112
+      ],
+      "left_bottom": [
+        150,
+        140
+      ],
+      "right_top": [
+        491,
+        112
+      ],
+      "right_bottom": [
+        488,
+        138
+      ]
+    },
+    "1530": {
+      "left_top": [
+        67,
+        154
+      ],
+      "left_bottom": [
+        66,
+        192
+      ],
+      "right_top": [
+        626,
+        182
+      ],
+      "right_bottom": [
+        623,
+        234
+      ]
+    },
+    "1620": {
+      "left_top": [
+        210,
+        121
+      ],
+      "left_bottom": [
+        210,
+        150
+      ],
+      "right_top": [
+        591,
+        152
+      ],
+      "right_bottom": [
+        587,
+        186
+      ]
+    },
+    "1800": {
+      "left_top": [
+        135,
+        129
+      ],
+      "left_bottom": [
+        136,
+        160
+      ],
+      "right_top": [
+        504,
+        132
+      ],
+      "right_bottom": [
+        502,
+        160
+      ]
+    },
+    "2340": {
+      "left_top": [
+        138,
+        128
+      ],
+      "left_bottom": [
+        139,
+        155
+      ],
+      "right_top": [
+        500,
+        130
+      ],
+      "right_bottom": [
+        498,
+        158
+      ]
+    },
+    "2760": {
+      "left_top": [
+        155,
+        119
+      ],
+      "left_bottom": [
+        155,
+        144
+      ],
+      "right_top": [
+        488,
+        118
+      ],
+      "right_bottom": [
+        486,
+        144
+      ]
+    },
+    "3870": {
+      "left_top": [
+        131,
+        138
+      ],
+      "left_bottom": [
+        132,
+        168
+      ],
+      "right_top": [
+        508,
+        136
+      ],
+      "right_bottom": [
+        507,
+        162
+      ]
+    },
+    "4470": {
+      "left_top": [
+        189,
+        116
+      ],
+      "left_bottom": [
+        190,
+        136
+      ],
+      "right_top": [
+        450,
+        116
+      ],
+      "right_bottom": [
+        451,
+        136
+      ]
+    },
+    "5010": {
+      "left_top": [
+        151,
+        115
+      ],
+      "left_bottom": [
+        151,
+        140
+      ],
+      "right_top": [
+        489,
+        113
+      ],
+      "right_bottom": [
+        489,
+        140
+      ]
+    },
+    "5700": {
+      "left_top": [
+        150,
+        114
+      ],
+      "left_bottom": [
+        150,
+        140
+      ],
+      "right_top": [
+        488,
+        112
+      ],
+      "right_bottom": [
+        488,
+        140
+      ]
+    },
+    "9330": {
+      "left_top": [
+        164,
+        141
+      ],
+      "left_bottom": [
+        165,
+        168
+      ],
+      "right_top": [
+        480,
+        142
+      ],
+      "right_bottom": [
+        478,
+        165
+      ]
+    },
+    "13560": {
+      "left_top": [
+        74,
+        180
+      ],
+      "left_bottom": [
+        74,
+        207
+      ],
+      "right_top": [
+        419,
+        176
+      ],
+      "right_bottom": [
+        419,
+        202
+      ]
+    },
+    "14550": {
+      "left_top": [
+        150,
+        114
+      ],
+      "left_bottom": [
+        152,
+        142
+      ],
+      "right_top": [
+        488,
+        116
+      ],
+      "right_bottom": [
+        488,
+        140
+      ]
+    },
+    "15330": {
+      "left_top": [
+        232,
+        174
+      ],
+      "left_bottom": [
+        233,
+        198
+      ],
+      "right_top": [
+        572,
+        180
+      ],
+      "right_bottom": [
+        570,
+        214
+      ]
+    },
+    "29730": {
+      "left_top": [
+        148,
+        110
+      ],
+      "left_bottom": [
+        149,
+        134
+      ],
+      "right_top": [
+        494,
+        110
+      ],
+      "right_bottom": [
+        492,
+        135
+      ]
+    },
+    "34590": {
+      "left_top": [
+        142,
+        176
+      ],
+      "left_bottom": [
+        142,
+        211
+      ],
+      "right_top": [
+        601,
+        184
+      ],
+      "right_bottom": [
+        604,
+        218
+      ]
+    },
+    "38190": {
+      "left_top": [
+        178,
+        128
+      ],
+      "left_bottom": [
+        180,
+        156
+      ],
+      "right_top": [
+        460,
+        128
+      ],
+      "right_bottom": [
+        460,
+        156
+      ]
+    },
+    "42360": {
+      "left_top": [
+        189,
+        116
+      ],
+      "left_bottom": [
+        190,
+        138
+      ],
+      "right_top": [
+        451,
+        116
+      ],
+      "right_bottom": [
+        451,
+        136
+      ]
+    },
+    "51660": {
+      "left_top": [
+        133,
+        129
+      ],
+      "left_bottom": [
+        135,
+        160
+      ],
+      "right_top": [
+        502,
+        130
+      ],
+      "right_bottom": [
+        500,
+        160
+      ]
+    },
+    "54810": {
+      "left_top": [
+        154,
+        118
+      ],
+      "left_bottom": [
+        156,
+        144
+      ],
+      "right_top": [
+        487,
+        118
+      ],
+      "right_bottom": [
+        486,
+        144
+      ]
+    },
+    "58260": {
+      "left_top": [
+        132,
+        138
+      ],
+      "left_bottom": [
+        131,
+        166
+      ],
+      "right_top": [
+        508,
+        136
+      ],
+      "right_bottom": [
+        508,
+        164
+      ]
+    }
+  }
+}
