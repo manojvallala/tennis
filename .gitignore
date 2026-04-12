@@ -9,3 +9,7 @@ net_data/
 *.wmv
 *.flv
 *.webm
+*_ball.csv
+csv_spotcheck/
+yolov8n.pt
+yolov8n-pose.pt
