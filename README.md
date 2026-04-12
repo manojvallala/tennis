@@ -110,3 +110,36 @@ Run video testing for net pole detection:
 ```bash
 python test_net_model.py
 ```
+
+## Near-Camera Player Pose Filtering
+
+If your pose model is detecting the opponent, staff, or audience, first run person
+detection and then keep only the near-camera player before pose estimation.
+
+Use the helper in [near_player_pose_filter.py](./near_player_pose_filter.py):
+
+```python
+from near_player_pose_filter import (
+    build_pose_target_from_yolo,
+    crop_pose_input,
+    select_near_camera_player,
+)
+
+person_result = detector(frame)[0]
+detections = build_pose_target_from_yolo(person_result)
+
+target_player = select_near_camera_player(
+    detections,
+    frame.shape,
+    court_corners=detected_court_corners,  # order: TL, TR, BR, BL
+)
+
+if target_player is not None:
+    player_crop, crop_box = crop_pose_input(frame, target_player)
+    pose_result = pose_model(player_crop)
+```
+
+This filter prefers:
+- people whose feet land inside the near half of the detected court
+- larger player boxes, which usually means closer to the camera
+- lower foot position in the frame, which also favors the near-side player
